@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Building Better Bad Banks</title>
+ <link href="http://christophergandrud.github.com/amc-site/atom.xml" rel="self"/>
+ <link href="http://christophergandrud.github.com/amc-site"/>
+ <updated>2012-11-08T13:29:59+09:00</updated>
+ <id>http://christophergandrud.github.com/amc-site</id>
+ <author>
+   <name>Christopher Gandrud & Mark Hallerberg</name>
+   <email>christopher.gandrud@gmail.com</email>
+ </author>
+
+ 
+ 
+</feed>
