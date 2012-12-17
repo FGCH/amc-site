@@ -125,8 +125,8 @@
 				<tr>
 					<th width="15%">Country</th>
 					<th width="25%">Name/Link to Official Website</th>
-					<th>Year Began</th>
-					<th>Year Ended</th>
+					<th><a href="#" rel="tooltip" data-original-title="Year AMC-type operations began">Began</a></th>
+					<th><a href="#" rel="tooltip" data-original-title="Year AMC-type operations ended">Ended</a></th>
 					<th width="20%">Other Sources</th>
 				</tr>
 			</thead>
@@ -239,7 +239,7 @@
 					<tr>
 						<td>Czech Republic</td>
 						<td>Czech KonsolidačnÌ Bank</td>
-						<td><a href="#" rel="tooltip" data-placement="top" data-original-title="Part of KonsolidačnÌ Bank until 1993">1991</a></td>
+						<td><a href="#" rel="tooltip" data-original-title='It was part of the Czechoslovakian KonsolidačnÌ Bank until 1993'>1991</a></td>
 						<td></td>
 						<td></td>
 					</tr>
@@ -276,13 +276,14 @@
 
 <!-- Bootstrap JavaScript Components -->
 <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
+<script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js"></script>
 <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tab.js"></script>
 <script type="text/javascript">
   $(function () {
     $('#tableTabs a:first').tab('show');
   })
 </script>
-<script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js"></script>
+<script type="text/javascript">$('[rel=tooltip]').tooltip() </script>
 
 <!--- End Bootstrap Components ---!>
 
