@@ -1,0 +1,7 @@
+
+http://christophergandrud.github.com/amc-site/atom.xml
+http://christophergandrud.github.com/amc-site/data.html
+http://christophergandrud.github.com/amc-site/index.html
+http://christophergandrud.github.com/amc-site/maps.html
+http://christophergandrud.github.com/amc-site/sitemap.txt
+http://christophergandrud.github.com/amc-site/tables.html
