@@ -1,15 +1,12 @@
-<!-- GeoMap generated in R 2.15.2 by googleVis 0.3.3 package -->
-<!-- Tue Mar  5 12:36:44 2013 -->
+<!-- GeoMap generated in R 2.15.3 by googleVis 0.4.2 package -->
+<!-- Sun Mar 24 18:01:06 2013 -->
 
 
 <!-- jsHeader -->
-<script type="text/javascript" src="http://www.google.com/jsapi">
-</script>
 <script type="text/javascript">
  
 // jsData 
-function gvisDataGeoMapID142539798ff8 ()
-{
+function gvisDataGeoMapID323914c815 () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -32,6 +29,10 @@ function gvisDataGeoMapID142539798ff8 ()
 [
  "BO",
 1 
+],
+[
+ "BR",
+2 
 ],
 [
  "BG",
@@ -167,7 +168,7 @@ function gvisDataGeoMapID142539798ff8 ()
 ],
 [
  "SI",
-1 
+2 
 ],
 [
  "ES",
@@ -229,8 +230,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartGeoMapID142539798ff8() {
-  var data = gvisDataGeoMapID142539798ff8();
+function drawChartGeoMapID323914c815() {
+  var data = gvisDataGeoMapID323914c815();
   var options = {};
 options["dataMode"] = "regions";
 options["width"] = "780px";
@@ -238,7 +239,7 @@ options["height"] = "500px";
 options["colors"] = [0xECE7F2, 0xA6BDDB, 0x2B8CBE];
 
      var chart = new google.visualization.GeoMap(
-       document.getElementById('GeoMapID142539798ff8')
+       document.getElementById('GeoMapID323914c815')
      );
      chart.draw(data,options);
     
@@ -246,22 +247,52 @@ options["colors"] = [0xECE7F2, 0xA6BDDB, 0x2B8CBE];
 }
   
  
-// jsDisplayChart 
-function displayChartGeoMapID142539798ff8()
-{
-  google.load("visualization", "1", { packages:["geomap"] }); 
-  google.setOnLoadCallback(drawChartGeoMapID142539798ff8);
+// jsDisplayChart
+(function() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  var chartid = "geomap";
+
+  // Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+  var i, newPackage = true;
+  for (i = 0; newPackage && i < pkgs.length; i++) {
+    if (pkgs[i] === chartid)
+      newPackage = false;
+  }
+  if (newPackage)
+    pkgs.push(chartid);
+
+  // Add the drawChart function to the global list of callbacks
+  callbacks.push(drawChartGeoMapID323914c815);
+})();
+function displayChartGeoMapID323914c815() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+    var pkgCount = pkgs.length;
+    google.load("visualization", "1", { packages:pkgs, callback: function() {
+      if (pkgCount != pkgs.length) {
+        // Race condition where another setTimeout call snuck in after us; if
+        // that call added a package, we must not shift its callback
+        return;
+      }
+      while (callbacks.length > 0)
+        callbacks.shift()();
+    } });
+  }, 100);
 }
  
-// jsChart 
-displayChartGeoMapID142539798ff8()
+// jsFooter
+ </script>
  
-<!-- jsFooter -->  
-//-->
-</script>
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartGeoMapID323914c815"></script>
  
 <!-- divChart -->
   
-<div id="GeoMapID142539798ff8"
+<div id="GeoMapID323914c815"
   style="width: 780pxpx; height: 500pxpx;">
 </div>
