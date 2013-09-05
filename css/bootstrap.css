@@ -4072,6 +4072,16 @@ input[type="submit"].btn.btn-mini {
   line-height: 14px;
 }
 
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555555;
+  cursor: default;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-bottom-color: transparent;
+}
+
 .nav-tabs {
   border-bottom: 1px solid #ddd;
 }
