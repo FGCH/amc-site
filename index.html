@@ -1,37 +1,104 @@
----
-layout: page
-title: 'Building Better Bad Banks Project'
-tagline: ''
----
-<LINK REL=StyleSheet HREF="images/bankrun.css" TYPE="text/css" MEDIA=screen>
 
-{% include JB/setup %}
-
-<div class="alert alert-warning"> 
-    <h2 align="center">This site is under development.</h2> 
-</div>
-
-
-<div class="container-fluid">
-
-    <div class="row-fluid">
-        <div id="bankrun"></div>
-        <h5>From the <a href="http://en.wikipedia.org/wiki/File:Bundesarchiv_Bild_102-12023,_Berlin,_Bankenkrach,_Andrang_bei_der_Sparkasse.jpg">German Federal Archives</a> </h5>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Building Better Bad Banks</title>
     
-        <br />
-        <br />
+    <meta name="author" content="Christopher Gandrud & Mark Hallerberg">
 
-               <h3> This site hosts data and other supporting material for the project: </h3>
+    <!-- MathJax -->
+    <script src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'>
+    </script>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootswatch.css" rel="stylesheet">
+    <script type="text/javascript" src="http://s3.buysellads.com/ac/bsa.js"></script>
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Building Better Bad Banks</a>
+          <ul class="nav">
+            <li><a href="papers.html">Working Papers</a></li>
+          	<li><a href="data.html">Data/Code</a></li>
+          	<li><a href="maps.html">Maps</a></li>
+          	<li><a href="tables.html">Tables</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="page-header">
+        <h1><center>Building Better Bad Banks</center></h1>
+        <br>
+        <br>
+        <h3><center><a href="http://www.hertie-school.org/hallerberg/">Mark Hallerberg</a> & <a href="http://christophergandrud.blogspot.com/p/biocontact.html">Christopher Gandrud</a> </center></h3>
+        <img src="images/bankrun.jpg" style="display: block; margin: auto;">
+        <h5><center>From the <a href="http://en.wikipedia.org/wiki/File:Bundesarchiv_Bild_102-12023,_Berlin,_Bankenkrach,_Andrang_bei_der_Sparkasse.jpg" fig.align>German Federal Archives</a></center></h5>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="span8 offset2">  
+        <p>Since the summer of 2013 we have been examining the political economy of public asset management companies ('bad banks'). We are particularly interested in why they are created, how they operate, and how they could be designed more effectively. We are based at the <a href="http://www.hertie-school.org/">Hertie School of Governance</a> and are generously funded by the <a href="http://www.dfg.de/en/index.jsp">Deutsche Forschungsgemeinschaft</a></p>
+
+
+      </div>
+    </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <footer>
+        <p>&copy; Mark Hallerberg & Christopher Gandrud (2013) 
+          <br>
+          <br>
+         The site is based on <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> and <a href="http://bootswatch.com/cosmo/">Bootswatch Cosmo</a>.
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
     
-        <br />
-    
-        <h1> Building Better Bad Banks </h1>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
 
-        <br />
-        <br />
+    <script type="text/javascript">
 
-        <h3><a href="http://www.hertie-school.org/hallerberg/">Mark Hallerberg</a> & <a href="http://christophergandrud.blogspot.com/p/biocontact.html">Christopher Gandrud</a> </h3>
-        <br />
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-985930-3']);
+      _gaq.push(['_trackPageview']);
 
-    </div>    
-</div>
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+    <script src="js/bootstrap.scrollspy.js"></script>
+    <script src="js/bootswatch.js"></script>
+    <!-- Code syntax highlight -->
+    <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/solarized_light.min.css">
+    <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
+

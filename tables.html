@@ -1,17 +1,54 @@
---- 
-layout: page 
-title: Tables 
-group: navigation 
---- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Building Better Bad Banks: Tables</title>
+    
+    <meta name="author" content="Christopher Gandrud & Mark Hallerberg">
 
-{% include JB/setup %}
+    <!-- MathJax -->
+    <script src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' type='text/javascript'>
+    </script>
 
-<div class="alert alert-warning"> 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootswatch.css" rel="stylesheet">
+    <script type="text/javascript" src="http://s3.buysellads.com/ac/bsa.js"></script>
+  </head>
+
+<body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">Building Better Bad Banks</a>
+          <ul class="nav">
+            <li><a href="papers.html">Working Papers</a></li>
+          	<li><a href="data.html">Data/Code</a></li>
+          	<li><a href="maps.html">Maps</a></li>
+          	<li><a href="tables.html">Tables</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Tables </h1>
+</div>
+
+<div class="row">
+  <div class="span12">
+    
+
     <h2 align="center">This page is under development.</h2>
     <br />
-    <p align="center">Information is current as of 24 March 2013.</p>
-    <p align="center">If you notice an error in these tables please contact: <a href="http://christophergandrud.blogspot.com/p/biocontact.html">Christopher Gandrud</a></p>
-</div>
+    <p align="center">Information is current as of 5 September 2013.</p>
+    <p align="center">If you notice additions or errors in these tables please contact: <a href="http://christophergandrud.blogspot.com/p/biocontact.html">Christopher Gandrud</a></p>
 
         <br />
         <br />
@@ -20,7 +57,7 @@ group: navigation
 <ul class="nav nav-tabs" id="tableTabs">
     <li class="active"><a href="#Basic" data-toggle="tab">Public AMCs</a></li>
 	<li class=""><a href="#DepositInsurers" data-toggle="tab">Deposit Insurers</a>  
-    <li class=""><a href="#IndvBadBank" data-toggle="tab">Bank Controlled Bad Banks</a>
+    <li class=""><a href="#IndvBadBank" data-toggle="tab">Bank Specific Bad Banks</a>
     <li class=""><a href="#Extra" data-toggle="tab">Variable Summaries</a></li>
 </ul>
 
@@ -28,12 +65,12 @@ group: navigation
 <div class="tab-content">
 	<div class="tab-pane fade active in" id="Basic">
 		<center>
-			<h2>Public Asset Management Companies</h2> 
+			<h2>Public Asset Management Companies 
 				<br />
-			<h3>and 
+				and 
 				<br />	
-			Other Public Distressed Asset Purchase/Disposal Operations (from 1980)
-			</h3>
+				Other Public Distressed Asset Purchase/Disposal Operations (from 1980)
+			</h2>
 			<br />
 			<h4 style="color:#DEDEDE">Note: Deposit insurers with AMC operations are listed on a separate table.</h4>
 		</center>
@@ -99,20 +136,6 @@ group: navigation
 						<td><a href="http://www.imf.org/external/pubs/ft/wp/2008/wp08135.pdf">Jácome H. (2008)</a></td>
 					</tr>
 					<tr>
-						<td>Brazil</td>
-						<td><a href="http://www.bcb.gov.br/?PROEREN">Programa de Estiímulo à Reestruturacão e ao Fortalecimento do Sistema Financeiro Nacional (PROER)</a></td>
-						<td>1995</td>
-						<td>Present</td>
-						<td><a href="http://www.bis.org/publ/plcy06b.pdf">Maia (1999)</a>, <a href="http://www.bcb.gov.br/?PROEREN">Banco Central do Brazil</a></td>
-					</tr>
-					<tr>
-						<td>Brazil</td>
-						<td>Programa de Incentivo ã Reducão do Setor Público Estadual na Atividade Bancária (PROES)</td>
-						<td>1996</td>
-						<td>Believed to have been wound down in 2002.</td>
-						<td><a href="http://www.bis.org/publ/plcy06b.pdf">Maia (1999)</a>, <a href="http://elibrary.worldbank.org/content/workingpaper/10.1596/1813-9450-3619">Beck et al. (2005)</a>, <a href="http://www.bcb.gov.br/?PAYSYSREFORM">Banco Central do Brazil</a></td>
-					</tr>
-					<tr>
 						<td>Bulgaria</td>
 						<td>State Fund for Reconstruction and Development</td>
 						<td>1996</td>
@@ -120,7 +143,7 @@ group: navigation
 						<td><a href="http://www-wds.worldbank.org/servlet/WDSContentServer/WDSP/IB/2000/12/15/000094946_00111805313297/Rendered/PDF/multi_page.pdf">Tang et al. (1999)</a>, <a href="http://www.oecd.org/daf/corporateaffairs/corporategovernanceofstate-ownedenterprises/1923738.pdf">Jotev (1998)</a> </td>
 					</tr>
 					<tr>
-						<td>Columbia</td>
+						<td>Colombia</td>
 						<td><a href="https://www.cisa.gov.co/CMSPortalCISA/en">Central de Inversiones</a></td>
 						<td>2000</td>
 						<td>Present</td>
@@ -518,25 +541,11 @@ group: navigation
 						<td><a href="http://www1.worldbank.org/finance/assets/images/depins02.pdf">Honohan and Klingebiel (2000)</a>, <a href="http://www.pf.uni-lj.si/media/mencinger.privatization.pdf">Mencinger</a></</td>
 					</tr>	
 					<tr>
-						<td>Slovenia</td>
-						<td><a href="http://www.auknrs.si/en/o_agenciji_2/">The Capital Assets Management Agency of the Republic of Slovenia (AUKN)</a></td>
-						<td>2010</td>
-						<td>Present</td>
-						<td></td>	
-					</tr>
-					<tr>
-						<td>Slovenia</td>
-						<td>Bank Asset Management Company</td>
-						<td>2013</td>
-						<td>Present</td>
-						<td><a href="http://www.imf.org/external/np/ms/2012/100212.htm">IMF Article IV Consultation (2012)</a>, <a href="http://www.mf.gov.si/en/investor_relations/news/">Republic of Slovenia Ministry of Finance</a></td>
-					</tr>
-					<tr>
 						<td>Spain</td>
 						<td>La Sociedad de Gestión de Activos Procedentes de la Reestructuracioón Bancaria (Sareb)</td>
 						<td>2012</td>
 						<td>Present</td>
-						<td><a href="http://online.wsj.com/article/SB10001424127887323981504578177200777620568.html?mod=googlenews_wsj#">Wall Street Journal (2012)/</a></td>
+						<td><a href="http://online.wsj.com/article/SB10001424127887323981504578177200777620568.html?mod=googlenews_wsj#">Wall Street Journal (2012)</a></td>
 					</tr>
 					<tr>
 						<td>Sri Lanka</td>
@@ -704,7 +713,7 @@ group: navigation
 						<td><a href="http://www.fgd.es/en/index.html">Deposit Guarantee Fund</a></td>
 						<td><a href="#" rel="tooltip" data-original-title="Exact year currently unknown." 1979</a></td>
 						<td><a href="#" rel="tooltip" data-original-title="Exact year currently unknown." 193</a></td>
-						<td><a href="http://www-wds.worldbank.org/servlet/WDSContentServer/WDSP/IB/2000/03/03/000094946_00021806025471/additional/128528322_20041117153059.pdf">Klingebiel (2000)</a>, <a href="http://www.bleyzerfoundation.org/wp-content/uploads/2012/02/Lecture-15-Banking-Crises.pdf">Segura (2012)</a></td>
+						<td><a href="http://www.bleyzerfoundation.org/wp-content/uploads/2012/02/Lecture-15-Banking-Crises.pdf">Segura (2012)</a></td>
 					</tr>	
 					<tr>
 						<td>Turkey</td>
@@ -736,7 +745,7 @@ group: navigation
 		<center>
 			<h2>Bad Banks</h2> 
 				<br />
-				<h3>part of an existing financial institution.</h3>
+				<h3>part of existing financial institutions.</h3>
 				<br />
 				<h4 style="color:#DEDEDE">Note: This list is not exhaustive and includes both public and privately owned banks.</h4>
 			</h2>
@@ -749,7 +758,6 @@ group: navigation
 					<th width="25%"><a href="#" rel="tooltip" data-original-title="Generally refers to the English language version">Name/Link to Official Website</a></th>
 					<th width="10%"><a href="#" rel="tooltip" data-original-title="Year AMC-type operations began">Began</a></th>
 					<th width="10%"><a href="#" rel="tooltip" data-original-title="Year AMC-type operations ended">Ended</a></th>
-					<th>Bank's Majority Owner</th>
 					<th width="25%">Other Sources</th>
 				</tr>
 			</thead>
@@ -759,7 +767,6 @@ group: navigation
 						<td>STS Bank</td>
 						<td>1993</td>
 						<td></td>
-						<td>Officially private, effectively public</td>
 						<td><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=883209">Drees and Pazarbasioglu (1995)</a></td>
 					</tr>
 					<tr>
@@ -767,7 +774,6 @@ group: navigation
 						<td>Societe Generale</td>
 						<td>2008</td>
 						<td>Present</td>
-						<td>Private</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>	
 					<tr>
@@ -775,7 +781,6 @@ group: navigation
 						<td><a href="http://www.natixis.com/natixis/jcms/j_6/accueil">Natixis</a></td>
 						<td>2009</td>
 						<td>Present</td>
-						<td>Naxis</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>	
 					<tr>
@@ -783,7 +788,6 @@ group: navigation
 						<td>Dresdner Bank</td>
 						<td>2002</td>
 						<td>2003</td>
-						<td>Private</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>
 					<tr>
@@ -791,7 +795,6 @@ group: navigation
 						<td>HypoVerinsbank</td>
 						<td>2006</td>
 						<td>Present</td>
-						<td>Private</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>
 					<tr>
@@ -799,15 +802,13 @@ group: navigation
 						<td>HSH Nordbank</td>
 						<td>2009</td>
 						<td>Present</td>
-						<td>Public (subnational)</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>
 					<tr>
 						<td>Germany</td>
-						<td>BayernLB</td>
+						<td>Bayern LB</td>
 						<td>2009</td>
 						<td>Present</td>
-						<td>Public (subnational)</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>
 					<tr>
@@ -815,15 +816,13 @@ group: navigation
 						<td>Commerzbank (Portfolio Restructuring Unit)</td>
 						<td>2009</td>
 						<td>Present</td>
-						<td>Private</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>
 					<tr>
 						<td>Germany</td>
-						<td>LBBW</td>
+						<td>LB BW</td>
 						<td>2009</td>
 						<td>Present</td>
-						<td>Public (subnational)</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>
 					<tr>
@@ -831,7 +830,6 @@ group: navigation
 						<td>Risk Kft</td>
 						<td>1995</td>
 						<td>1998</td>
-						<td>Public (privatized soon after)</td>
 						<td><a href="http://www-wds.worldbank.org/servlet/WDSContentServer/WDSP/IB/2000/12/15/000094946_00111805313297/Rendered/PDF/multi_page.pdf">Tang et al. (1999)</a></td>
 					</tr>	
 					<tr>
@@ -839,7 +837,6 @@ group: navigation
 						<td>UniCredit</td>
 						<td>2008</td>
 						<td>Present</td>
-						<td>Private</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>
 					<tr>
@@ -847,7 +844,6 @@ group: navigation
 						<td>Nackebro</td>
 						<td></td>
 						<td></td>
-						<td>Private</td>
 						<td><a href="http://www.piie.com/blogs/realtime/?p=504">Aslund (2009)</a></td>
 					</tr>
 					<tr>
@@ -855,7 +851,6 @@ group: navigation
 						<td>Diligentia</td>
 						<td></td>
 						<td></td>
-						<td>Private</td>
 						<td><a href="http://www.piie.com/blogs/realtime/?p=504">Aslund (2009)</a></td>
 					</tr>	
 					<tr>
@@ -863,7 +858,6 @@ group: navigation
 						<td><a href="#" rel="tooltip" data-original-title="Performing assets sold to state owned Krung Thai Bank">Bangkok Bank of Commerce</td>
 						<td>1998</td>
 						<td>1999</td>
-						<td>Public (recently nationalised)</td>
 						<td><a href="http://www.bis.org/publ/plcy06.pdf">BIS (1999)</a></td>
 					</tr>
 					<tr>
@@ -871,7 +865,6 @@ group: navigation
 						<td>Royal Bank of Scotland</td>
 						<td>2009</td>
 						<td>Present</td>
-						<td>Public (recently nationalised)</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>	
 					<tr>
@@ -879,11 +872,9 @@ group: navigation
 						<td>Citibank</td>
 						<td>2008</td>
 						<td>Present</td>
-						<td>Private</td>
 						<td><a href="http://www.mckinsey.com/~/media/McKinsey/dotcom/client_service/Risk/Working%20papers/31_Excellence_managing_wind-down_portfolios.ashx">Aggarwal et al. (2012)</a></td>
 					</tr>
 					<tr>
-						<td></td>
 						<td></td>
 						<td></td>
 						<td></td>
@@ -898,23 +889,34 @@ group: navigation
 <!-- fourth Table Content -->
 	<div class="tab-pane fade" id="Extra">
 		<center>
-			<div class="alert alert-warning"> 
-    			<h2 align="center">This table is underdevelopment.</h2> 
-			</div>
+    		<h2 align="center">This table is underdevelopment.</h2> 
 		</center>		
 	</div>
 </div>
 
 
+	<footer>
+		<hr>
+		<br>
+		<br>
+        <p>&copy; Mark Hallerberg & Christopher Gandrud (2013) 
+          <br>
+          <br>
+         The site is based on <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> and <a href="http://bootswatch.com/cosmo/">Bootswatch Cosmo</a>.
+        </p>
+      </footer>
+
 <!-- Bootstrap JavaScript Components -->
-<script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
-<script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js"></script>
-<script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tab.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="js/jQuery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+<<script>
   $(function () {
-    $('#tableTabs a:first').tab('show');
+    $('#Basic a:first').tab('show')
   })
 </script>
 <script type="text/javascript">$('[rel=tooltip]').tooltip() </script>
+    
+  </body>
+</html>
 
-<!--- End Bootstrap Components ---!>
