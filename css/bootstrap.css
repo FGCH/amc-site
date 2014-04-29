@@ -394,8 +394,7 @@ ol ul {
 }
 
 li {
-  line-height: 20px;
-  font-size: 17px;
+  font-size: 1.5em;
 }
 
 ul.unstyled,
@@ -1582,7 +1581,7 @@ table {
 .table th,
 .table td {
   padding: 8px;
-  line-height: 20px;
+  line-height: 1em;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
@@ -4872,7 +4871,7 @@ input[type="submit"].btn.btn-mini {
   position: absolute;
   z-index: 1030;
   display: block;
-  font-size: 11px;
+  font-size: 0.65em;
   line-height: 1.4;
   opacity: 0;
   filter: alpha(opacity=0);
