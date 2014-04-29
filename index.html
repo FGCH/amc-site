@@ -8,6 +8,8 @@
 
         <link href="css/main.css" rel="stylesheet"/>
         <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="js/flowtype.js"></script>
     </head>
 
     <body>
@@ -26,9 +28,9 @@
                         </ul>
                     </nav>
                     
-                    <h1 class="sitename strokemaster">The Financial Crisis Project</h1>
+                    <h1>The Financial Crisis Project</h1>
                 
-                    <p class="authors strokemaster"><a href="http://christophergandrud.blogspot.com/p/biocontact.html">Christopher Gandrud</a> and <a href="http://www.hertie-school.org/hallerberg/">Mark Hallerberg</a></p>
+                    <p class="authors"><a href="#hallerberg">Mark Hallerberg</a> and <a href="#gandrud">Christopher Gandrud</a></p>
                 </div>
             </header>
             
@@ -66,6 +68,10 @@
                 
                 <h2 id="authors">Authors</h2>
                 
+                <p class="authorsblock" id="hallerberg"><strong><a href="http://www.hertie-school.org/hallerberg/">Mark Hallerberg</a></strong> teaches Public Management and Political Economy at the Hertie School of Governance. He also maintains an affiliation with the Political Science Department at Emory University, Atlanta, Georgia. He is the author of one book, co-author of a second, and co-editor of a third. He has published over twenty-five articles and book chapters on fiscal governance, tax competition, exchange rate choice, and European politics. He has held academic positions previously at Emory University, the University of Pittsburgh, and the Georgia Institute of Technology. He has also served as a visiting scholar at the University of Amsterdam, University of Bonn, University of Mannheim, and the University of Munich (all in economics departments). He has done consulting work for the Dutch Ministry of Finance, Ernst and Young Poland, the European Central Bank, the International Monetary Fund, the Organisation for Economic Cooperation and Development, and the World Bank. </p>
+                
+                <p class="authorsblock" id="gandrud"><strong><a href="http://christophergandrud.blogspot.com/p/biocontact.html">Christopher Gandrud</a></strong> is a Post-Doctoral Researcher at the Fiscal Governance Centre, Hertie School of Governance. His research focuses on the international political economy of public financial and monetary institutions, as well as applied social science statistics. His work has been published in the Review of International Political Economy, the International Political Science Review and the Political Methodologist. He has co-authored a number of pieces on European banking union for the Bruegel Policy Contribution series. He published a book on reproducible research with R for Chapman and Hall. He has been a Lecturer in International Relations at Yonsei University and a Fellow in Government at the London School of Economics where in 2012 he completed a PhD in political science. <a href="https://twitter.com/ChrisGandrud"><i class="fa fa-twitter"></i></a></p>
+                
                 
                 <h2 id="tables">Tables</h2>
                 
@@ -75,6 +81,9 @@
 
         </div>
 
+    <script>
+        $('body').flowtype();    
+    </script>
     </body>
-
+    
 </html>
