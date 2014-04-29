@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+#container {
+    /*background-color: #eee;*/
+}
+
+#container>header {
+	position: relative;
+	background-image:url('https://github.com/FGCH/amc-site/blob/master/images/bankrun.jpg?raw=true');
+	background-size: cover;
+    min-height: 50%
+}
+
+.sitename {
+    top: 20%;
+    font-size: 100px;
+    color: #eee;
+    font-weight: 300;
+    line-height: 1.5em
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#container>.body-part:first-of-type {
+    margin-top: 280px;
+}
+
+.body-part {
+  border: 0px solid #ddd;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  padding-bottom: 40px;
+/*   border-bottom-width: 1px; */
+}
