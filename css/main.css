@@ -13,6 +13,12 @@ body {
     background-color: #eee;
 }
 
+@media all (max-width: 500px){
+    header p.authors {
+        margin-left: 5%;
+    }
+}
+
 #container {
     
 }
@@ -57,7 +63,7 @@ h2:before {
     margin-right: 2%;
 }
 
-.authors {
+p.authors {
     font-size: 0.9em;
     margin-left: 35%;
     margin-right: 10%;
