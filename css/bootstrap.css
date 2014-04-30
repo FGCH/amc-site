@@ -3626,12 +3626,12 @@ input[type="submit"].btn.btn-mini {
   color: #555555;
   cursor: default;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
-  border-bottom-color: transparent;
+  border: 1px solid yellow;
+  border-bottom-color: yellow;
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid yellow;
 }
 
 .nav-tabs > li {
