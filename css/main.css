@@ -13,12 +13,6 @@ body {
     background-color: #eee;
 }
 
-@media all (max-width: 500px){
-    header p.authors {
-        margin-left: 5%;
-    }
-}
-
 #container {
     
 }
@@ -34,7 +28,8 @@ body {
 footer {
     border-top: 1px solid yellow;
     background-color: #a9a9a9;
-    font-size: 0.5em;
+    font-size: 0.6em;
+    line-height: 0.9em;
     padding: 5% 10% 5% 10%;
 }
 
@@ -68,6 +63,10 @@ h2:before {
     content: "\f101"; 
     font-family: FontAwesome;   
     margin-right: 2%;
+}
+
+tablename {
+    font-size: 1.5em;
 }
 
 p.authors {
